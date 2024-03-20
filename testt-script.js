@@ -45,3 +45,5 @@ function checkAnswersAndNavigate(resultsPage) {
     // If all questions have been answered, navigate to the results page
     window.location.href = resultsPage;
 }
+
+
