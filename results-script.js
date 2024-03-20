@@ -1,4 +1,4 @@
-wersList = JSON.parse(localStorage.getItem('answersList')) || {};
+var answersList = JSON.parse(localStorage.getItem('answersList')) || {};
 
 function copyTextToClipboard(textToCopy) {
         // Create a temporary input element

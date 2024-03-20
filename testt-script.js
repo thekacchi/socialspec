@@ -1,4 +1,6 @@
-electedButton = null;
+// test-script.js
+
+var selectedButton = null;
 var answersList = {};
 
 function selectButton(button, questionNumber, choice) {
@@ -43,5 +45,3 @@ function checkAnswersAndNavigate(resultsPage) {
     // If all questions have been answered, navigate to the results page
     window.location.href = resultsPage;
 }
-
-
